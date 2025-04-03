@@ -7,7 +7,7 @@ Docking Maneuvers"
 
 >O. Schumann, M. Buchholz, and K. Dietmayer, “Dynamic
 Objective MPC for Motion Planning of Seamless Docking
-Maneuvers,” in accepted at IEEE 36th Intelligent Vehicles
+Maneuvers,” in accepted for publication at IEEE 36th Intelligent Vehicles
 Symposium (IV), 2025
 > 
 This algorithm is based on a model predictive contouring controller (MPCC) created in acados, which is improved by the 
@@ -36,22 +36,20 @@ TBA
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/28X5zaHW6bs/0.jpg)](https://www.youtube.com/watch?v=28X5zaHW6bs)
 
 ## Setup
-1. Clone the repository
-2. Build the docker image
+1. Build the docker image
 ```shell
-cd docker
-./build.sh
+cd docker && ./build.sh && cd ..
 ```
-3. Run the docker
+2. Run the docker
 ```shell
 ./run_docker.sh
 ```
-4. Build and source the module
+3. Build and source the module
 ```shell
 colcon build
 source colcon_build/install/setup.zsh
 ```
-5. Run
+4. Run
 ```shell
 ros2 run corridor_planning simulation.py --ros-args -p baseline:=-1 -p track_switch:=6
 ```
@@ -61,7 +59,7 @@ Different configurations of the planning algorithm can be run, depending on some
 **baseline** \
 -1: dynamic objective MPC \
 0: separated motion plans \
-1: switched MPCs \
+1: switched MPCs 
 
 
 **track_switch (tracks used in this paper are bold)** \
