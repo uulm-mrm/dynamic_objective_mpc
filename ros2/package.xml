@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>corridor_planning</name>
+    <version>0.0.0</version>
+    <description>corridor_planning</description>
+    <author>Oliver Schumann</author>
+    <maintainer email="oliver.schumann@uni-ulm.de">Oliver Schumann</maintainer>
+    <license>Apache 2.0</license>
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>corridor_planning_lib</depend>
+
+    <!--    Aduulm stuff-->
+    <depend>aduulm_cmake_tools</depend>
+    <depend>aduulm_logger_lib</depend>
+    <depend>aduulm_logger</depend>
+    <depend>std_msgs</depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>
