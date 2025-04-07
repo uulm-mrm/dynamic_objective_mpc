@@ -18,7 +18,8 @@ Especially in docking scenarios, this is a common use case.
 
 ![GUI](img/gui.png)
 ## Paper
-TBA
+[arXiv](http://arxiv.org/abs/2504.03280)
+IEEE (TBA)
 
 ## Citation
 ```
