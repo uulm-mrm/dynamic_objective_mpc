@@ -5,10 +5,7 @@
 This repository contains the code of the IV2025 paper called "Dynamic Objective MPC for Motion Planning of Seamless 
 Docking Maneuvers"
 
->O. Schumann, M. Buchholz, and K. Dietmayer, “Dynamic
-Objective MPC for Motion Planning of Seamless Docking
-Maneuvers,” in accepted for publication at IEEE 36th Intelligent Vehicles
-Symposium (IV), 2025
+>O. Schumann, M. Buchholz and K. Dietmayer, "Dynamic Objective MPC for Motion Planning of Seamless Docking Maneuvers," 2025 IEEE Intelligent Vehicles Symposium (IV), Cluj-Napoca, Romania, 2025, pp. 132-139, doi: 10.1109/IV64158.2025.11097771.
 > 
 This algorithm is based on a model predictive contouring controller (MPCC) created in acados, which is improved by the 
 methods proposed in this paper. 
@@ -19,18 +16,23 @@ Especially in docking scenarios, this is a common use case.
 ![GUI](img/gui.png)
 ## Paper
 [arXiv](http://arxiv.org/abs/2504.03280)
-IEEE (TBA)
+
+[IEEE-Explore](https://doi.org/10.1109/IV64158.2025.11097771)
+
+[Oparu](https://oparu.uni-ulm.de/items/956a606e-3145-488b-b1a3-85bd32b1b410)
 
 ## Citation
 ```
-@INPROCEEDINGS{schumann2025,
+@INPROCEEDINGS{11097771,
   author={Schumann, Oliver and Buchholz, Michael and Dietmayer, Klaus},
-  booktitle={accepted at IEEE 36th Intelligent Vehicles Symposium (IV)}, 
-  title={{Dynamic Objective MPC for Motion Planning of Seamless Docking Maneuvers}},
-  volume={},
+  booktitle={2025 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Dynamic Objective MPC for Motion Planning of Seamless Docking Maneuvers}, 
   year={2025},
+  volume={},
   number={},
-}
+  pages={132-139},
+  doi={10.1109/IV64158.2025.11097771}}
+
 ```
 
 ## Videos
